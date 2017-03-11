@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sign_up_email_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/login_email_tv" />
+
+    <EditText
+        android:id="@+id/sign_up_email_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_up_email_tv"
+        android:hint="@string/login_email_etv"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/sign_up_passwd_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/sign_up_email_et"
+        android:text="@string/login_passwd_tv" />
+
+    <EditText
+        android:id="@+id/sign_up_passwd_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_up_passwd_tv"
+        android:hint="@string/login_passwd_etv"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/sign_up_passwd_confirm_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/sign_up_passwd_et"
+        android:text="@string/sign_up_passwd_confirm_tv" />
+
+    <EditText
+        android:id="@+id/sign_up_passwd_confirm_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_up_passwd_confirm_tv"
+        android:hint="@string/sign_up_passwd_confirm_etv"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/sign_up_regist_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_up_passwd_confirm_et"
+        android:text="@string/login_sign_up_btn" />
+
+</RelativeLayout>

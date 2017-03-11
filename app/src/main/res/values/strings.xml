@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MySecretPlace</string>
+
+    <string name="facebook_app_id">392275974439750</string>
+    <string name="google_web_client_id">300640236489-tarcg2d19ljl0stntqkvo8bqff7dbh5a.apps.googleusercontent.com</string>
+
+    <!--Login Form-->
+    <string name="login_email_tv">이메일</string>
+    <string name="login_passwd_tv">패스워드</string>
+    <string name="sign_up_passwd_confirm_tv">패스워드 확인</string>
+    <string name="login_email_etv">example@example.com</string>
+    <string name="login_passwd_etv">패스워드를 입력해주세요</string>
+    <string name="sign_up_passwd_confirm_etv">패스워드 확인</string>
+    <string name="login_sign_up_btn">회원가입</string>
+    <string name="login_sign_in_btn">로그인</string>
+    <string name="login_search_email_btn">이메일 찾기</string>
+    <string name="login_search_passwd_btn">패스워드 찾기</string>
+
+    <string name="login_warning">이메일 또는 비밀번호를 정확히 입력해주세요.</string>
+
+</resources>
+
