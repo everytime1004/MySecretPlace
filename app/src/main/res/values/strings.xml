@@ -50,6 +50,12 @@
     <string name="submit">확인</string>
     <string name="cancel">취소</string>
 
+    <string name="view_store_service_wifi">Wifi</string>
+    <string name="view_store_service_smoking">흡연</string>
+    <string name="view_store_service_parking">주차</string>
+    <string name="view_store_service_drink">술</string>
+    <string name="view_store_service_code">전기코드</string>
+
 
 </resources>
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.jh.mysecretplace.view.ViewCustomRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/view_my_drink_detail_containter"
+    android:id="@+id/view_my_drink_pager_item_containter"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/view_my_drink_detail_name_tv"
+        android:id="@+id/view_my_drink_pager_item_name_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -13,78 +13,78 @@
         android:text="테스트" />
 
     <ImageView
-        android:id="@+id/view_my_drink_detail_image"
+        android:id="@+id/view_my_drink_pager_item_image"
         android:layout_width="150dp"
         android:layout_height="200dp"
-        android:layout_below="@+id/view_my_drink_detail_name_tv"
+        android:layout_below="@+id/view_my_drink_pager_item_name_tv"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5dp"
         android:background="@mipmap/ic_launcher" />
 
     <TextView
-        android:id="@+id/view_my_drink_detail_countryOfOrigin_tv"
+        android:id="@+id/view_my_drink_pager_item_countryOfOrigin_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/view_my_drink_detail_image"
+        android:layout_below="@+id/view_my_drink_pager_item_image"
         android:layout_marginBottom="5dp"
         android:layout_marginLeft="30dp"
         android:text="@string/view_drink_country_of_origin" />
 
     <TextView
-        android:id="@+id/view_my_drink_detail_country_tv"
+        android:id="@+id/view_my_drink_pager_item_country_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/view_my_drink_detail_image"
+        android:layout_below="@+id/view_my_drink_pager_item_image"
         android:layout_marginLeft="5dp"
-        android:layout_toRightOf="@+id/view_my_drink_detail_countryOfOrigin_tv"
+        android:layout_toRightOf="@+id/view_my_drink_pager_item_countryOfOrigin_tv"
         android:text="테스트" />
 
     <TextView
-        android:id="@+id/view_my_drink_detail_arrow"
+        android:id="@+id/view_my_drink_pager_item_arrow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/view_my_drink_detail_image"
-        android:layout_toRightOf="@+id/view_my_drink_detail_country_tv"
+        android:layout_below="@+id/view_my_drink_pager_item_image"
+        android:layout_toRightOf="@+id/view_my_drink_pager_item_country_tv"
         android:text=">" />
 
     <TextView
-        android:id="@+id/view_my_drink_detail_city_tv"
+        android:id="@+id/view_my_drink_pager_item_city_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/view_my_drink_detail_image"
+        android:layout_below="@+id/view_my_drink_pager_item_image"
         android:layout_marginLeft="5dp"
-        android:layout_toRightOf="@+id/view_my_drink_detail_arrow"
+        android:layout_toRightOf="@+id/view_my_drink_pager_item_arrow"
         android:text="테스트" />
 
     <TextView
-        android:id="@+id/view_my_drink_detail_content_tv"
+        android:id="@+id/view_my_drink_pager_item_content_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/view_my_drink_detail_city_tv"
+        android:layout_below="@+id/view_my_drink_pager_item_city_tv"
         android:layout_marginLeft="30dp"
         android:text="@string/view_drink_content" />
 
     <TextView
-        android:id="@+id/view_my_drink_detail_content_et"
+        android:id="@+id/view_my_drink_pager_item_content_et"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/view_my_drink_detail_content_tv"
-        android:layout_toRightOf="@+id/view_my_drink_detail_content_tv"
+        android:layout_below="@+id/view_my_drink_pager_item_content_tv"
+        android:layout_toRightOf="@+id/view_my_drink_pager_item_content_tv"
         android:text="테스트" />
 
     <TextView
-        android:id="@+id/view_my_drink_detail_desc_tv"
+        android:id="@+id/view_my_drink_pager_item_desc_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/view_my_drink_detail_content_et"
+        android:layout_below="@+id/view_my_drink_pager_item_content_et"
         android:layout_marginLeft="30dp"
         android:text="@string/view_drink_description" />
 
     <TextView
-        android:id="@+id/view_my_drink_detail_desc_et"
+        android:id="@+id/view_my_drink_pager_item_desc_et"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/view_my_drink_detail_desc_tv"
+        android:layout_below="@+id/view_my_drink_pager_item_desc_tv"
         android:layout_marginLeft="40dp"
         android:text="테스트" />
 </com.jh.mysecretplace.view.ViewCustomRelativeLayout>

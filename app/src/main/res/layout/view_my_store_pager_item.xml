@@ -1,6 +1,168 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</LinearLayout>
+    <ImageView
+        android:id="@+id/view_my_store_pager_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/view_my_store_pager_item_store_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_my_store_pager_item_image" />
+
+    <TextView
+        android:id="@+id/view_my_store_pager_item_store_address_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_my_store_pager_item_store_name_tv" />
+
+    <TextView
+        android:id="@+id/view_my_store_pager_item_store_address_content_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_my_store_pager_item_store_address_tv" />
+
+    <TextView
+        android:id="@+id/view_my_store_pager_item_store_phone_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_my_store_pager_item_store_address_content_tv" />
+
+    <TextView
+        android:id="@+id/view_my_store_pager_item_store_phone_content_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_my_store_pager_item_store_phone_tv" />
+
+    <TextView
+        android:id="@+id/view_my_store_pager_item_store_desc_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_my_store_pager_item_store_phone_content_tv" />
+
+    <TextView
+        android:id="@+id/view_my_store_pager_item_store_desc_content_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_my_store_pager_item_store_desc_tv" />
+
+    <Button
+        android:id="@+id/view_my_store_pager_item_store_menu_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/view_my_store_pager_item_store_desc_content_tv" />
+
+    <Button
+        android:id="@+id/view_my_store_pager_item_store_map_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/view_my_store_pager_item_store_desc_content_tv"
+        android:layout_toRightOf="@+id/view_my_store_pager_item_store_menu_btn" />
+
+    <Button
+        android:id="@+id/view_my_store_pager_item_store_post_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/view_my_store_pager_item_store_desc_content_tv"
+        android:layout_toRightOf="@+id/view_my_store_pager_item_store_map_btn" />
+
+    <Button
+        android:id="@+id/view_my_store_pager_item_store_photo_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/view_my_store_pager_item_store_desc_content_tv"
+        android:layout_toRightOf="@+id/view_my_store_pager_item_store_post_btn" />
+
+    <TextView
+        android:id="@+id/view_my_store_pager_item_store_service_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_my_store_pager_item_store_menu_btn" />
+
+    <View
+        android:id="@+id/view_my_store_pager_item_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/view_my_store_pager_item_store_service_tv" />
+
+    <ImageView
+        android:id="@+id/view_my_store_pager_item_store_service_wifi_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/view_my_store_pager_item_store_service_wifi_tv" />
+
+    <ImageView
+        android:id="@+id/view_my_store_pager_item_store_service_smoke_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/view_my_store_pager_item_store_service_smoke_tv"
+        android:layout_toRightOf="@+id/view_my_store_pager_item_store_service_wifi_image" />
+
+    <ImageView
+        android:id="@+id/view_my_store_pager_item_store_service_park_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/view_my_store_pager_item_store_service_park_tv"
+        android:layout_toRightOf="@+id/view_my_store_pager_item_store_service_smoke_image" />
+
+    <ImageView
+        android:id="@+id/view_my_store_pager_item_store_service_drink_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/view_my_store_pager_item_store_service_drink_tv"
+        android:layout_toRightOf="@+id/view_my_store_pager_item_store_service_park_image" />
+
+    <ImageView
+        android:id="@+id/view_my_store_pager_item_store_service_code_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/view_my_store_pager_item_store_service_code_tv"
+        android:layout_toRightOf="@+id/view_my_store_pager_item_store_service_drink_image" />
+
+    <TextView
+        android:id="@+id/view_my_store_pager_item_store_service_wifi_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_store_service_wifi"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/view_my_store_pager_item_store_service_smoke_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_store_service_smoking"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/view_my_store_pager_item_store_service_wifi_tv" />
+
+    <TextView
+        android:id="@+id/view_my_store_pager_item_store_service_park_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_store_service_parking"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/view_my_store_pager_item_store_service_smoke_tv" />
+
+    <TextView
+        android:id="@+id/view_my_store_pager_item_store_service_drink_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/view_store_service_drink"
+        android:layout_toRightOf="@+id/view_my_store_pager_item_store_service_park_tv" />
+
+    <TextView
+        android:id="@+id/view_my_store_pager_item_store_service_code_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/view_store_service_code"
+        android:layout_toRightOf="@+id/view_my_store_pager_item_store_service_drink_tv" />
+
+
+</RelativeLayout>
