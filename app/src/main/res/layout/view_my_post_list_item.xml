@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/row_post_cv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/row_post_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/row_post_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/row_post_imageview"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="제목이다임마" />
+
+        <TextView
+            android:id="@+id/row_post_desc_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/row_post_title_tv"
+            android:layout_marginLeft="15dp"
+            android:text="제목이다임마" />
+
+        <TextView
+            android:id="@+id/row_post_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/row_post_desc_tv"
+            android:text="2017-02-03 18:22:00" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

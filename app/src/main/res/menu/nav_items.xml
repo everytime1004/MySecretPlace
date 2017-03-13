@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_list_item_my_post"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/nav_list_item_my_post"></item>
+    <item
+        android:id="@+id/nav_list_item_my_store"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/nav_list_item_my_store"></item>
+    <item
+        android:id="@+id/nav_list_item_my_photo"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/nav_list_item_my_photo"></item>
+    <item
+        android:id="@+id/nav_list_item_my_drink"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/nav_list_item_my_drink"></item>
+    <item
+        android:id="@+id/nav_list_item_my_food"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/nav_list_item_my_food"></item>
+    <item
+        android:id="@+id/nav_list_item_my_info"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/nav_list_item_my_info"></item>
+    <item
+        android:id="@+id/nav_list_item_settings"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/nav_list_item_settings"></item>
+
+</menu>

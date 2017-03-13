@@ -52,6 +52,7 @@ public class HandleSessionController {
                         }else{
                             Intent i = new Intent(mActivity, MainActivity.class);
                             mActivity.startActivity(i);
+                            mActivity.finish();
                         }
                         // ...
                     }

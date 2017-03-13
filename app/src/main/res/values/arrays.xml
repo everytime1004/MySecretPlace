@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nav_list_titles">
+        <item>@string/nav_list_item_my_post</item>
+        <item>@string/nav_list_item_my_store</item>
+        <item>@string/nav_list_item_my_photo</item>
+        <item>@string/nav_list_item_my_drink</item>
+        <item>@string/nav_list_item_my_food</item>
+        <item>@string/nav_list_item_my_info</item>
+        <item>@string/nav_list_item_settings</item>
+    </string-array>
+
+    <array name="nav_list_icons">
+        <item>@drawable/messenger_bubble_large_blue</item>
+        <item>@drawable/messenger_bubble_large_blue</item>
+        <item>@drawable/messenger_bubble_large_blue</item>
+        <item>@drawable/messenger_bubble_large_blue</item>
+        <item>@drawable/messenger_bubble_large_blue</item>
+        <item>@drawable/messenger_bubble_large_blue</item>
+        <item>@drawable/messenger_bubble_large_blue</item>
+    </array>
+</resources>

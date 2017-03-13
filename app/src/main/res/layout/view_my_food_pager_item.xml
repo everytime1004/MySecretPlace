@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jh.mysecretplace.view.ViewCustomRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/view_my_food_detail_containter"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/view_my_food_detail_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:text="테스트" />
+
+    <ImageView
+        android:id="@+id/view_my_food_detail_image"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/view_my_food_detail_name_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/view_my_food_detail_price_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_my_food_detail_image"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/view_food_price" />
+
+    <TextView
+        android:id="@+id/view_my_food_detail_price_content_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_my_food_detail_image"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/view_my_food_detail_price_tv"
+        android:text="@string/view_drink_country_of_origin" />
+
+    <EditText
+        android:id="@+id/view_my_food_detail_price_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_my_drink_detail_image"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/view_my_food_detail_price_tv"
+        android:text="테스트"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/view_my_drink_detail_desc_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_my_food_detail_price_tv"
+        android:layout_marginLeft="30dp"
+        android:text="@string/view_food_description" />
+
+    <TextView
+        android:id="@+id/view_my_drink_detail_desc_content_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_my_drink_detail_desc_tv"
+        android:layout_marginLeft="40dp"
+        android:text="@string/view_drink_description"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/view_my_drink_detail_desc_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_my_drink_detail_desc_tv"
+        android:layout_marginLeft="40dp"
+        android:text="테스트" />
+
+    <TextView
+        android:id="@+id/view_my_drink_detail_category_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_my_drink_detail_desc_tv"
+        android:layout_marginLeft="40dp"
+        android:text="@string/view_food_category" />
+
+    <TextView
+        android:id="@+id/view_my_drink_detail_category_content_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/view_my_drink_detail_category_tv" />
+
+    <Spinner
+        android:id="@+id/view_my_drink_detail_category_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/view_my_drink_detail_category_tv"
+        android:visibility="gone" />
+</com.jh.mysecretplace.view.ViewCustomRelativeLayout>

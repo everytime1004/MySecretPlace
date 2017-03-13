@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/view_my_info_btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/view_my_info_user_edit" />
+
+        <ImageView
+            android:id="@+id/view_my_info_user_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="50dp"
+            android:background="@mipmap/ic_launcher"
+            android:clickable="true" />
+
+        <TextView
+            android:id="@+id/view_my_info_user_name_tv"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_my_info_user_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="@string/view_my_info_user_name" />
+
+        <EditText
+            android:id="@+id/view_my_info_user_name_et"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/view_my_info_user_name_tv"
+            android:layout_below="@+id/view_my_info_user_name_tv"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:clickable="false" />
+
+        <TextView
+            android:id="@+id/view_my_info_user_email_tv"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_my_info_user_name_et"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="@string/view_my_info_user_email" />
+
+        <EditText
+            android:id="@+id/view_my_info_user_email_et"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/view_my_info_user_email_tv"
+            android:layout_below="@+id/view_my_info_user_email_tv"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:clickable="false" />
+
+        <TextView
+            android:id="@+id/view_my_info_user_birth_tv"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_my_info_user_email_et"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="@string/view_my_info_user_birth" />
+
+
+        <DatePicker
+            android:id="@+id/view_my_info_user_birth_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_my_info_user_birth_tv"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:datePickerMode="spinner"
+            tools:calendarViewShown="false" />
+
+        <TextView
+            android:id="@+id/view_my_info_user_gender_tv"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_my_info_user_birth_dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="@string/view_my_info_user_gender" />
+
+        <RadioGroup
+            android:id="@+id/view_my_info_user_gender_rg"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/view_my_info_user_gender_tv"
+            android:layout_below="@+id/view_my_info_user_gender_tv"
+            android:layout_marginBottom="50dp"
+            android:layout_marginStart="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/view_my_info_user_gender_m_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/view_my_info_user_gender_m" />
+
+            <RadioButton
+                android:id="@+id/view_my_info_user_gender_w_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/view_my_info_user_gender_w" />
+        </RadioGroup>
+
+
+    </RelativeLayout>
+</ScrollView>
